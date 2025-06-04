@@ -1,4 +1,8 @@
 @import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 
 /* 自定义一些颜色等 */
 @theme {
@@ -76,7 +80,7 @@
   }
 }
 
-
+/*
 @layer base {
   :root {
     --background: 210 40% 98%;
@@ -164,7 +168,7 @@
 }
 
 /* 这里的cosmic-button就是视频里创建了一个关于宇宙的网站 可以自己改掉 */
-@utility cosmic-button {
+/* @utility cosmic-button {
   @apply px-6 py-2 rounded-full bg-primary text-primary-foreground font-medium transition-all duration-300 hover:shadow-[0_0_10px_rgba(139, 92, 246, 0.5)] hover:scale-105 active:scale-95;
 }
 
@@ -185,4 +189,4 @@
   margin: 0 auto;
   padding: 0;
   text-align: center;
-}
+}  */
