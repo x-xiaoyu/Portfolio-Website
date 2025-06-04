@@ -50,7 +50,7 @@ This is a modern portfolio website using **React**, **TailwindCSS**, **Vite**, a
 ### Clone and Run
 
 ```bash
-cd 文件名字
+cd Portfolio-Website-main
 npm install
 npm run dev
 ```
